@@ -11,6 +11,9 @@ public class Main {
         for (int i = 0; i < getPrimes.size(); i++) {
             System.out.print(getPrimes.get(i) + " ");
         }
+        System.out.println();
+        SieveOfEratosthenes sieveOfEratosthenes = new SieveOfEratosthenes();
+        sieveOfEratosthenes.sieveOfEratosthenes(200);
     }
 
     static List<Integer> getPrimes(int n) {
